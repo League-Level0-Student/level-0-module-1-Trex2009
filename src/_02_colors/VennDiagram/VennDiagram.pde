@@ -1,5 +1,7 @@
 size(600,600);
+fill(245,50, 14, 50);
 ellipse (350, 350, 100, 100);
+fill(14,245, 14, 50);
 ellipse (300, 300, 100, 100);
+fill(50,14, 245, 10);
 ellipse (250, 350, 100, 100);
-fill(red, green, blue, opacity);
