@@ -7,10 +7,13 @@ public class Unbirthday {
 	
 	public static void main(String[] args) {
 		String birthday = JOptionPane.showInputDialog(null, "Is it your birthday?(mm/dd)");
-		if(birthday.equalsIgnoreCase("Today")) {
+		if(birthday.equalsIgnoreCase("Yes")) {
 			JOptionPane.showMessageDialog(null, "Happy Birthday!");
 		}
 
+		else {
+			JOptionPane.showMessageDialog(null, "Happy UNBirthday");
+		}
 	}
 
 }
