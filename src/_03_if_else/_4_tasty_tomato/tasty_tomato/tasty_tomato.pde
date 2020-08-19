@@ -14,7 +14,7 @@ void draw() {
       
     //}
    if(mousePressed) {
-     fill(#C4CEC6);
+     fill(#BFBBBB);
      ellipse(100, 195, 75, 75);
     // create an ellipse and set it to the background color (fill)
    }
